@@ -1,0 +1,15 @@
+# Secrets: ElectronX certificate package, onboarding sheet (contains passwords), local config
+*.key
+*.crt
+*.pem
+instructions.pdf
+.env
+*.pdf
+
+# Runtime state: journals, sequence numbers, kill switch
+var/
+
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
